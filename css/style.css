@@ -1,6 +1,7 @@
 @import "reset.css";
 
 @import "main.css";
+@import "my-page.css";
 @import "components.css";
 
 body {

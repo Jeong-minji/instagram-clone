@@ -4,12 +4,52 @@
   border-radius: 50%;
 }
 
-.icons {
-  width: 24px;
-  height: 24px;
+.profile-l {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
 
-.icons-sm {
+.icon--sm {
+  width: 10px;
+  height: 10px;
+}
+
+.icon--s {
   width: 15px;
   height: 15px;
+}
+
+.icon--m {
+  width: 20px;
+  height: 20px;
+}
+
+.icon--l {
+  width: 45px;
+  height: 45px;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 8px 0px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0px 30px;
+}
+
+nav ul li img {
+  width: 23px;
+  height: 23px;
 }
