@@ -1,0 +1,15 @@
+.profile--sm {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.icons {
+  width: 24px;
+  height: 24px;
+}
+
+.icons-sm {
+  width: 15px;
+  height: 15px;
+}
