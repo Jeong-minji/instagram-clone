@@ -30,6 +30,18 @@
   height: 45px;
 }
 
+.btn--add {
+  background-color: #0194f7;
+  color: white;
+  border: none;
+}
+
+.btn--change {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
 nav {
   width: 100%;
   position: fixed;
