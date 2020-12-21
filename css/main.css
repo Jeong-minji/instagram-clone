@@ -151,10 +151,6 @@ header .header_camera {
   margin: 10px;
 }
 
-.timeline-newspeed__reply-column:nth-child(2) img {
-  margin-top: 20px;
-}
-
 .timeline-newspeed__time {
   padding: 5px 15px;
   font-size: 10px;

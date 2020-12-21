@@ -241,8 +241,8 @@
 }
 
 .profile_guideline_box .box {
-  padding: 20px;
-  min-width: 150px;
+  padding: 25px;
+  min-width: 165px;
   display: flex;
   align-items: center;
   flex-direction: column;
