@@ -137,7 +137,7 @@
   border-radius: 50%;
   padding: 15px;
   margin-left: 25px;
-  background-color: #fafafa;
+  background-color: #efefef;
 }
 
 .postings {
@@ -216,7 +216,7 @@
   padding: 20px 15px;
   padding-bottom: 250px;
   background-color: #fafafa;
-  width: 100%;
+  overflow-y: scroll;
 }
 
 .profile_guideline_header {
@@ -250,13 +250,26 @@
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  position: relative;
 }
 
-.profile_guideline_box .box img {
+.profile_guideline_box .box .icon--m {
   border: 1px solid black;
   padding: 15px;
   border-radius: 50%;
   transform: scaleX(-1);
+}
+
+.profile_guideline_box .box .icon_check {
+  background: #62c52f;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 52px;
+  right: 70px;
 }
 
 .profile_guideline_box .box h4 {
