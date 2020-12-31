@@ -8,6 +8,7 @@
 
 .header_mypage-column span {
   font-weight: 600;
+  font-size: 18px;
 }
 
 .header_mypage-column img {
@@ -132,10 +133,9 @@
 }
 
 .my_stories_show .story_none {
-  min-width: 18px;
-  height: 18px;
+  min-width: 46px;
+  height: 46px;
   border-radius: 50%;
-  padding: 15px;
   margin-left: 25px;
   background-color: #efefef;
 }
@@ -175,7 +175,7 @@
 }
 
 .postings_header-shared img {
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 3px;
   width: 14px;
   height: 14px;

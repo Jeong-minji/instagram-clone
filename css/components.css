@@ -4,9 +4,15 @@
   border-radius: 50%;
 }
 
-.profile-l {
+.profile--l {
   width: 80px;
   height: 80px;
+  border-radius: 50%;
+}
+
+.profile--xl {
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
 }
 
@@ -33,7 +39,7 @@
 .btn--add {
   background-color: #0194f7;
   color: white;
-  border: none;
+  border: 2px solid #0194f7;
 }
 
 .btn--change {

@@ -10,12 +10,12 @@ header img:first-child {
   margin-right: 15px;
 }
 
-header .header_camera {
+header .header_column {
   display: flex;
   align-items: center;
 }
 
-.header_camera span {
+header .main_title {
   font-style: italic;
   font-weight: 500;
   font-size: 20px;
@@ -25,6 +25,7 @@ header .header_camera {
   width: 65px;
   height: 65px;
   border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .stories {
@@ -35,7 +36,6 @@ header .header_camera {
   overflow-x: scroll;
   -ms-overflow-style: none;
   padding: 5px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 ::-webkit-scrollbar {
@@ -56,7 +56,11 @@ header .header_camera {
 
 .timeline {
   overflow-x: scroll;
-  margin-bottom: 100px;
+}
+
+.timeline-newspeed {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .timeline-newspeed__header {
@@ -76,7 +80,7 @@ header .header_camera {
   align-items: center;
 }
 
-.timeline-newspeed__header-profile span {
+.timeline-newspeed__header-column span {
   margin-left: 10px;
   font-weight: 500;
 }
@@ -160,4 +164,68 @@ header .header_camera {
 
 .timeline-newspeed__time span {
   font-size: 11px;
+}
+
+.recommend-friend {
+  margin-bottom: 200px;
+  background-color: #fafafa;
+}
+
+.recommend-friend__header {
+  font-size: 14px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.recommend-friend__header .show-all {
+  color: #0194f7;
+}
+
+.recommend-friend__components {
+  padding: 0px 15px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  overflow-y: scroll;
+}
+
+.recommend-friend__components_box {
+  margin-right: 10px;
+  text-align: center;
+  min-width: 140px;
+  background-color: white;
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.recommend-friend__components_box .friend-name {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.recommend-friend__components_box .following-friends {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.recommend-friend__components_box .btn_follow {
+  background-color: #0194f7;
+  color: white;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  padding: 4px 10px;
+  font-size: 13px;
+  margin-top: 10px;
 }
