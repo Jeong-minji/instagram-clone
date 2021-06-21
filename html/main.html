@@ -6,45 +6,53 @@
     <meta name="viewport" content="width=device-width">
     <title>Main</title>
     <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    </style>
 </head>
 
 <body>
+    <!--Header-->
     <header>
         <span class="main_title">Instagram</span>
         <div class="header_column">
+            <img class="icon--m" src="../img/plus-sign.png" />
             <img class="icon--m" src="../img/like.png" />
             <img class="icon--m" src="../img/send.png" />
         </div>
     </header>
 
+    <!--Story-->
     <div class="stories">
         <div class="stories_my">
-            <img class="stories_my_profile img_profile" src="../img/donkey.jpg" />
-            <div class="new_story"></div>
+            <div class="stories_area">
+                <img class="img_profile" src="../img/donkey.jpg" />
+            </div>
             <span class="stories_my_id">내 스토리</span>
         </div>
         <div class="stories_my">
-            <img class="stories_my_profile img_profile" src="../img/ssolant.png"/>
+            <img class="img_profile stories_new" src="../img/ssolant.png" />
             <span class="stories_my_id">ssolant_official</span>
         </div>
         <div class="stories_my">
-            <img class="stories_my_profile img_profile" src="../img/sunmi.jpg" />
+            <img class="img_profile" src="../img/sunmi.jpg" />
             <span class="stories_my_id">sun_mi__</span>
         </div>
         <div class="stories_my">
-            <img class="stories_my_profile img_profile" src="../img/jang.PNG" />
+            <img class="img_profile" src="../img/jang.PNG" />
             <span class="stories_my_id">jangsk8484</span>
         </div>
         <div class="stories_my">
-            <img class="stories_my_profile img_profile" src="../img/battle.PNG" />
+            <img class="img_profile" src="../img/battle.PNG" />
             <span class="stories_my_id">hxxax_</span>
         </div>
         <div class="stories_my">
-            <img class="stories_my_profile img_profile" src="../img/pizza.PNG" />
+            <img class="img_profile" src="../img/pizza.PNG" />
             <span class="stories_my_id">changmo_</span>
         </div>
     </div>
 
+    <!--Timeline-->
     <div class="timeline">
         <div class="timeline-newspeed">
             <div class="timeline-newspeed__header">
@@ -56,13 +64,18 @@
             </div>
             <div class="timeline-newspeed__media">
                 <img class="picture" src="../img/donkey.jpg">
-                <span class="picture_count">1 / 2</span>
+                <span class="picture_count">1/2</span>
+                <img class="icon--m btn_next" src="../img/next.png">
             </div>
             <div class="timeline-newspeed__menu">
                 <div class="timeline-newspeed__menu-column">
                     <img class="icon--m" src="../img/like.png" />
                     <img class="icon--m" src="../img/chat.png" />
                     <img class="icon--m" src="../img/send.png" />
+                    <div class="switch">
+                        <div class="circle focus"></div>
+                        <div class="circle"></div>
+                    </div>
                 </div>
                 <img class="icon--m" src="../img/bookmark.png" />
             </div>
@@ -85,6 +98,7 @@
             </div>
         </div>
 
+        <!--Recommend Friend-->
         <div class="recommend-friend">
             <div class="recommend-friend__header">
                 <h5>회원님을 위한 추천</h5>
@@ -113,15 +127,18 @@
         </div>
     </div>
 
+    <!--Navigation-->
     <nav class="navigation">
         <ul>
             <li class="home"><img class="icons" src="../img/home.png" /></li>
-            <li class="search"><img class="icons" src="../img/search.png" /></li>
-            <li class="plus"><img class="icons" src="../img/plus-sign.png" /></li>
+            <a href="search.html"><li class="search"><img class="icons" src="../img/search.png" /></li></a>
+            <li class="video"><img class="icons" src="../img/video.png" /></li>
             <li class="alarm"><img class="icons" src="../img/shopping-bag.png" /></li>
-            <li class="my-page">
-                <img class="profile--sm" src="../img/donkey.jpg" />
-            </li>
+            <a href="mypage.html">
+                <li class="my-page">
+                    <img class="profile--sm" src="../img/donkey.jpg" />
+                </li>
+            </a>
         </ul>
     </nav>
 
